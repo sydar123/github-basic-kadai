@@ -1,0 +1,52 @@
+PS D:\sydar123>
+PS D:\sydar123> mkdir git_challenge
+
+
+    ディレクトリ: D:\sydar123
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/11/12      6:41                git_challenge
+
+
+PS D:\sydar123> cd git_challenge
+PS D:\sydar123\git_challenge> 
+PS D:\sydar123\git_challenge> git init
+Initialized empty Git repository in D:/sydar123/git_challenge/.git/
+PS D:\sydar123\git_challenge> 
+PS D:\sydar123\git_challenge> dir
+
+
+    ディレクトリ: D:\sydar123\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/11/12      6:45              0 hello_world.txt
+
+
+PS D:\sydar123\git_challenge> 
+PS D:\sydar123\git_challenge> type hello_world.txt
+Hello, world
+PS D:\sydar123\git_challenge>
+PS D:\sydar123\git_challenge> git add .\hello_world.txt
+PS D:\sydar123\git_challenge> git commit -m "１回目コミット"
+[main (root-commit) 7e297d9] １回目コミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS D:\sydar123\git_challenge>
+PS D:\sydar123\git_challenge> type hello_world.txt
+Hello, world
+こんにちは、世界！
+PS D:\sydar123\git_challenge>
+PS D:\sydar123\git_challenge> git add .\hello_world.txt
+PS D:\sydar123\git_challenge> git commit -m "２回目コミット"
+[main d8b8007] ２回目コミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS D:\sydar123\git_challenge>
+PS D:\sydar123\git_challenge> git log --oneline
+d8b8007 (HEAD -> main) ２回目コミット
+7e297d9 １回目コミット
+PS D:\sydar123\git_challenge> 
+PS D:\sydar123\git_challenge>
